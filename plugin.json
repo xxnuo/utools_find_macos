@@ -1,13 +1,12 @@
 {
-    "preload":"preload.js",
-	"logo": "logo.png",
-    "platform": ["darwin"],
-	"features": [
-		{
-		  	"code": "搜索",
-		  	"explain": "搜索文件",
-			"cmds":["fd","搜索","find"]
-		}
-	]
+  "preload": "preload.js",
+  "logo": "logo.png",
+  "platform": ["win32", "darwin", "linux"],
+  "features": [
+    {
+      "code": "搜索",
+      "explain": "搜索文件",
+      "cmds": ["fd", "搜索", "find"]
+    }
+  ]
 }
-
